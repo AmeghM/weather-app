@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.bg-weather-gradient {
+  background: linear-gradient(
+      180deg,
+      #a1c4fd 0%,
+      #4facfe 25%,
+      #2e8cf7 50%,
+      #1b6de0 75%,
+      #0d47a1 100%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(255, 255, 255, 0.2) 0%,
+      transparent 60%
+    );
+  background-blend-mode: screen;
+}
